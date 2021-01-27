@@ -24,5 +24,3 @@ def get_pokemon_by_name(name):
 def test_pokemon_number():
     atheris.Setup(sys.argv, get_pokemon_by_name)
     atheris.Fuzz()
-
-test_pokemon_number()

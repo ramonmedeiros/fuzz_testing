@@ -1,3 +1,3 @@
 
 test:
-	python test_pokeapi_fuzz.py -runs=200
+	python3 -m pytest -vs -runs=100 tests/
